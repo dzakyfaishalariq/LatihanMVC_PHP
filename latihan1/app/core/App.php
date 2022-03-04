@@ -46,8 +46,6 @@ class App
             // menghilangkan tanda slash di awal dan akhir url
             $url = explode('/', $url);
             return $url;
-        } else {
-            $url = '';
         }
     }
 }
